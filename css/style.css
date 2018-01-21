@@ -1,0 +1,171 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.LetraAzul{
+  color: #004f70;
+}
+nav ul a,
+nav {
+  color: #004f70;
+}
+.nav-wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footerColor{
+  background-color: #004f70;
+}
+.border{
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: #004f70;
+  z-index: 2;
+  box-shadow: 2px;
+}
+.containerTxt {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+p {
+  line-height: 2rem;
+}
+.text-pad-left{
+  padding-left: 10px;
+}
+.imgBnW{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.serviciosCard{
+  background-color: #004f70;
+  max-height: 300px;
+  overflow: hidden;
+}
+.button-collapse {
+  color: #004f70;
+}
+.card-servicios{
+  height:auto;
+}
+.marTop{
+  margin-top: 10px;
+}
+.headerPick{
+  font-size: 3.5em !important;
+}
+.letraPesada{
+  font-weight: 500;
+}
+.alturaTarjeta{
+  min-height: 400px;
+  overflow: hidden;
+}
+.alturaContent{
+  height: 100px;
+  overflow: hidden;
+}
+.card-image img{
+  min-height: 200px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 450px;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+  }
+#logoGip{
+  max-height: 250px;
+}
+#bannerNuestroOrigen{
+  padding-right: 70px;
+}
+#bannerNosotros h1,h2{
+  padding-left: 15px;
+  font-weight: 700;
+}
+#bannerServicios{
+  padding-left: 15px;
+}
+#logo-container img{
+  max-width: 270px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .marTop{
+    margin-top: auto;
+  }
+  .card-servicios{
+  height: auto;
+  }
+  .alturaContent, .serviciosCard{
+    height: auto;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logo-container{
+    float: right !important;
+  }
+}
+.nav-wrapper ul{
+ margin-right: 0px !important;
+ padding-right: 10px;
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .marTop{
+    margin-top: auto;
+  }
+  .row.valign-wrapper {
+    display: inherit;
+  }
+  #logo-container{
+    float: right !important;
+  }
+  #bannerNuestroOrigen, #bannerLiderazgo{
+    text-align: center ;
+    color: black;
+  }
+.card-servicios, .alturaContent{
+  height: auto;
+}
+}
+@media only screen and (min-width: 601px) {
+  .containerTxt {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .containerTxt {
+    width: 85%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
