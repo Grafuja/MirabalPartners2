@@ -10,10 +10,10 @@
 
     gtag('config', 'UA-112804529-1');
   </script>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="Keywords" content="pricing, estrategias de precio, estrategias comerciales, mirabal, mirabal and partners, pricing strategies">
-  <meta name="Description" content="En Mirabal nos enfocamos en mejorar los precios de nuestros clientes">
+  <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/init.js"></script>
     <!--Start of Zendesk Chat Script-->
   <script type="text/javascript">
   window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -23,10 +23,17 @@
   type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   </script>
   <!--End of Zendesk Chat Script-->
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"0237e63d118daa2b24a2c77a8","lid":"ac0b6ee682"}) })</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Keywords" content="pricing, estrategias de precio, estrategias comerciales, mirabal, mirabal and partners, pricing strategies">
+  <meta name="Description" content="En Mirabal nos enfocamos en mejorar los precios de nuestros clientes">
+    <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <title>Servicios - Mirabal & Partners</title>
 <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -39,10 +46,11 @@
         <li><a href="../nosotros/nosotros.html#bannerLiderazgo">Liderazgo</a></li>
       </ul>
       <ul id="serviciosBtn" class="dropdown-content active">
-        <li><a href="servicios/servicios.html/bannerPricing">Pricing</a></li>
-        <li><a href="servicios/servicios.html#bannerEstrategia">Estrategia</a></li>
-        <li><a href="servicios/servicios.html#bannerVentas">Ventas</a></li>
-        <li><a href="servicios/servicios.html#bannerMarketing">Marketing</a></li>
+        <li><a href="servicios.html#bannerEstrategia">Diagnósticos</a></li>
+        <li><a href="servicios.html#consultoriaPrecios">Consultoría</a></li>
+        <li><a href="servicios.html#modelosPredictivos">Modelos Predictivos</a></li>
+        <li><a href="servicios.html#bannerEstrategia">Pricing</a></li>
+        <li><a href="servicios.html#bannerCharlas">Charlas</a></li>
       </ul>
       <ul id="industriasBtn" class="dropdown-content">
         <li><a href="../industrias/industrias.html#bannerServiciosEmpresariales">Servicios Empresariales</a></li>
@@ -64,10 +72,10 @@
         <li><a href="../contacto/contacto.html">Contacto</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav LetraAzul">
-        <li><a class="dropdown-button" href="../nosotros/nosotros.html" data-activates="nosotrosBtn">Nosotros<i class="material-icons right">arrow_drop_down</i></a></li><li>
-        <li class="active"><a class="dropdown-button" href="servicio/servicio.html" data-activates="serviciosBtn">Servicios<i class="material-icons right">arrow_drop_down</i></a></li><li>
-        <li><a class="dropdown-button" href="../industrias/industrias.html" data-activates="industriasBtn">Industrias<i class="material-icons right">arrow_drop_down</i></a></li><li>
-        <li><a class="dropdown-button" href="../recursos/recursos.html" data-activates="recursosBtn">Recursos<i class="material-icons right">arrow_drop_down</i></a></li><li>
+        <li><a class="" href="../nosotros/nosotros.html" data-activates="nosotrosBtn">Nosotros<i class="material-icons right">arrow_drop_down</i></a></li><li>
+        <li class="active"><a class="" href="servicio/servicio.html" data-activates="serviciosBtn">Servicios<i class="material-icons right">arrow_drop_down</i></a></li><li>
+        <li><a class="" href="../industrias/industrias.html" data-activates="industriasBtn">Industrias<i class="material-icons right">arrow_drop_down</i></a></li><li>
+        <li><a class="" href="../recursos/recursos.html" data-activates="recursosBtn">Recursos<i class="material-icons right">arrow_drop_down</i></a></li><li>
        <li><a href="../contacto/contacto.html">Contacto</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -203,7 +211,7 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="img/JRMirabal-6.jpg" alt="Jose Rafael Mirabal"></div>
+      <div class="parallax"><img src="img/JrMirabal-6.jpg" alt="Jose Rafael Mirabal"></div>
     </div>
 <!--Charlas contenido-->
   <div class="containerTxt">
@@ -244,47 +252,57 @@
   </div>
 
  <!-- Footer Section-->
-  <footer class="page-footer footerColor">
-    <div class="containerTxt">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Mirabal & Parners</h5>
-          <p class="grey-text text-lighten-4">En menos de 2 años Mirabal se ha convertido en una consultora de alcance regional en Latinoamérica con más de 100 clientes en 9 países y 2 continentes. Nuestro crecimiento es rápido y exponencial, ya que a diferencia de las típicas soluciones consultivas enfocadas en reducir costos o aumentar ventas, nuestro enfoque radica en mejorar precios</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Conoce más</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Nosotros</a></li>
-            <li><a class="white-text" href="#!">Servicios</a></li>
-            <li><a class="white-text" href="#!">Industrias</a></li>
-            <li><a class="white-text" href="#!">Recursos</a></li>
-            <li><a class="white-text" href="#!">Contacto</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Suscribete a nuestro Newsletter</h5>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email" data-error="wrong" data-success="right">Email</label>
-            </div>
-          </div>
-          <div class="center">
-            <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">mail</i>Enviar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2017 Copyright <a class="brown-text text-lighten-3">Mirabal & Partners</a>
-      </div>
-    </div>
-  </footer>
-<!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.js"></script>
-  <script src="../js/init.js"></script>
-
+ <footer class="page-footer footerColor">
+   <div class="containerTxt">
+     <div class="row">
+       <div class="col l6 s12">
+         <h5 class="white-text">Mirabal & Parners</h5>
+         <p class="grey-text text-lighten-4">En menos de 2 años  Mirabal se ha convertido en una consultora de alcance regional en Latinoamérica con más de 100 clientes en 9 países y 2 continentes. Nuestro crecimiento es rápido y exponencial, ya que a diferencia de las típicas soluciones consultivas enfocadas en reducir costos o aumentar ventas, nuestro enfoque radica en mejorar precios</p>
+       </div>
+       <div class="col l3 s12">
+         <h5 class="white-text">Conoce más</h5>
+         <ul>
+           <li><a class="white-text" href="../nosotros/nosotros.html">Nosotros</a></li>
+           <li><a class="white-text" href="../servicios/servicios.html">Servicios</a></li>
+           <li><a class="white-text" href="../industrias/industrias.html">Industrias</a></li>
+           <li><a class="white-text" href="../recursos/recursos.html">Recursos</a></li>
+           <li><a class="white-text" href="../contacto/contacto.html">Contacto</a></li>
+         </ul>
+       </div>
+       <div class="col l3 s12">
+         <h5 class="white-text">Suscribete a nuestro Newsletter</h5>
+         <div class="row">
+           <div id="mc_embed_signup">
+           <form action="https://jrmirabal.us17.list-manage.com/subscribe/post?u=0237e63d118daa2b24a2c77a8&amp;id=ac0b6ee682" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+             <div id="mc_embed_signup_scroll" class="input-field col s12">
+               <label for="mce-EMAIL" data-error="wrong" data-success="right"></label>
+               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0237e63d118daa2b24a2c77a8_ac0b6ee682" tabindex="-1" value=""></div>
+                 <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="waves-effect waves-light btn"></div>
+             </div>
+           </form>
+           </div>
+ <!--
+           <div class="input-field col s12">
+             <input id="email" type="email" class="validate">
+             <label for="email" data-error="wrong" data-success="right">Email</label>
+           </div>
+         -->
+         </div>
+         <!--
+         <div class="center">
+           <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">mail</i>Enviar</a>
+         </div>
+       -->
+       </div>
+     </div>
+   </div>
+   <div class="footer-copyright">
+     <div class="container">
+     © 2018 Copyright <a class="brown-text text-lighten-3">Mirabal & Partners</a>
+     </div>
+   </div>
+ </footer>
   </body>
 </html>
