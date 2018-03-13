@@ -13,6 +13,23 @@ nav ul a,
 nav {
   color: #004f70;
 }
+.circuloMax {
+  max-width: 170px;
+}
+.optin {
+  margin: 15px;
+  padding: 5px;
+}
+
+.equipoCard{
+  max-height: 520px;
+  overflow: hidden;
+}
+.alianzasImg{
+  max-width: 120px;
+  margin: 5px;
+}
+
 .nav-wrapper{
   padding-left: 10px;
   padding-right: 10px;
@@ -121,6 +138,9 @@ p {
   #logo-container{
     float: right !important;
   }
+  .circuloMax {
+    max-width: 100px;
+  }
 }
 .nav-wrapper ul{
  margin-right: 0px !important;
@@ -139,18 +159,22 @@ p {
   #logo-container{
     float: right !important;
   }
+  .circuloMax {
+    max-width: 200px;
+  }
   #bannerNuestroOrigen, #bannerLiderazgo{
     text-align: center ;
-    color: black;
   }
 .card-servicios, .alturaContent{
   height: auto;
+
 }
 }
 @media only screen and (min-width: 601px) {
   .containerTxt {
     width: 85%;
   }
+
 }
 
 @media only screen and (min-width: 993px) {
