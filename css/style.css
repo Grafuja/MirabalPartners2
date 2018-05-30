@@ -20,7 +20,8 @@ nav {
   margin: 15px;
   padding: 5px;
 }
-
+.blur {-webkit-filter: blur(3px);filter: blur(3px);
+}
 .equipoCard{
   max-height: 520px;
   overflow: hidden;
